@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic SEO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Live Islamic prayer times displayed in a clean, centered, and responsive layout."
+    />
+    <meta
+      name="keywords"
+      content="Prayer Times, Salah Time, Islamic Prayer, Muslim Prayer, IslamicFinder Widget"
+    />
+    <meta name="author" content="Your Name" />
+    <meta name="robots" content="index, follow" />
+
+    <title>Live Islamic Prayer Times</title>
+
+    <!-- Social Preview -->
+    <meta property="og:title" content="Live Islamic Prayer Times" />
+    <meta
+      property="og:description"
+      content="Centered, full-screen Islamic prayer times widget with a clean modern UI."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="ADD-YOUR-IMAGE-URL-HERE" />
+    <meta property="og:url" content="https://yourwebsite.com" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Live Islamic Prayer Times" />
+    <meta
+      name="twitter:description"
+      content="Modern full-screen Islamic prayer times widget."
+    />
+    <meta name="twitter:image" content="ADD-YOUR-IMAGE-URL-HERE" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        background: #f4f6f8;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Center container */
+      .full {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      iframe {
+        width: 380px;
+        height: 358px;
+        border: none;
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="full">
+      <iframe
+        id="iframe"
+        title="Prayer Times Widget - IslamicFinder"
+        scrolling="no"
+        src="https://www.islamicfinder.org/prayer-widget/1185241/shafi/3/0/18.0/18.0"
+      >
+      </iframe>
+    </main>
+  </body>
+</html>
